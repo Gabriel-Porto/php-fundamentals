@@ -8,7 +8,7 @@ echo '<pre>';
 
 //TRANSFORMA UMA STRING EM UM ARRAY, DEFININDO UM SEPARADOR
 $info = 'São Paulo/SP/Brasil/Terra';
-$arrayInfo = explode('/', $info);
+$arrayInfo = explode('/', $info, 2);
 var_dump($arrayInfo);
 
 echo '<hr>';
